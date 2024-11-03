@@ -19,7 +19,7 @@ def create_navbar():
 
         with gr.Tab("مبتنی بر قانون و فهرست"):
             try:
-                app3_interface()  # Call the third app interface
+                app3_interface()  
             except Exception as e:
                 gr.Error(f"Error loading the third app: {str(e)}")  
     return demo  
